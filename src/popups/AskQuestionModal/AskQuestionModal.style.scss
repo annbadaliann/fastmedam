@@ -1,0 +1,12 @@
+@import "src/assets/styles/variables.scss";
+
+.ask-question {
+  textarea {
+    margin-top: 30px;
+    width: 100%;
+    padding: 20px 10px;
+    border: 1px solid #c8c8c8;
+    height: 160px;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,49 @@
+// Breakpoints
+$bp-iphone: 375px; // 23.4375em
+$bp-sm: 576px; // 36em
+$bp-tablet: 768px; // 48em
+$bp-lg: 992px; // 62em
+$bp-tablet-lg: 1024px; // 64em
+$bp-laptop: 1200px; // 64em
+$bp-mdpi: 1280px; // 80em
+
+
+
+$normal-font-size: 18px;
+
+// Colors
+$black: #000000;
+$light-black: #2b2525;
+$white: #ffffff;
+$gray-dark: #8e8e8e;
+$light-gray: #bfbfc0;
+$gray: #a2a3ad;
+$light: #f6f6f6;
+$light-gray: #cccccc;
+$light-green: #0bbf6b;
+$light-green: #0bbf6b;
+$red: #e6374c;
+$blue: #141e66;
+$el-blue: #4fddd9;
+$light-red: #dc444e;
+$yellow: #e7ad00;
+$light-yellow: #fbc43a;
+$orange: #f0641e;
+$purple: #ee00ff;
+$pink: #f0f1f6;
+$dark-gray: #8b8496;
+$main-box-shadow: 0 0 20px -10px;
+$green: #7ac943;
+$light-green: rgba(122, 201, 67, .82);
+
+//Alternative styles
+
+$gradient: linear-gradient(to right, #03c4b5, $el-blue);
+$shadow: 0px 3px 10px 3px rgba($black, 0.1);
+$btn-shadow: 0px 0px 20px 1px rgba($black, 0.5);
+$error-shadow: 0 0 15px transparentize($red, 0.5);
+$blue-shadow: 0 0 40px rgba($blue, 0.2);
+$blue-dark-shadow: 0 0 40px rgba($blue, 0.4);
+$radius: 3px;
+$btn-radius: 20px;
+
