@@ -1,9 +1,9 @@
 import React, { useState, forwardRef } from "react";
 
-import DateFnsUtils from "@date-io/date-fns";
+// import DateFnsUtils from "@date-io/date-fns";
 
 import TextField from "@material-ui/core/TextField";
-import { DatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
+// import { DatePicker, MuiPickersUtilsProvider } from '@material-ui/pickers';
 import { makeStyles } from "@material-ui/core";
 
 const useStyles = makeStyles(() => ({
@@ -29,7 +29,7 @@ const FDatePicker = forwardRef((props, ref) => {
   return (
     <div>
       <p className={classes.label}>Date of birth</p>
-      <MuiPickersUtilsProvider utils={DateFnsUtils}>
+      {/* <MuiPickersUtilsProvider utils={DateFnsUtils}>
         <DatePicker 
           value={selectedDate}
           ref={ref}
@@ -45,7 +45,7 @@ const FDatePicker = forwardRef((props, ref) => {
               <TextField inputRef={ref} fullWidth={true} {...inputProps}/>
           )}
         />
-      </MuiPickersUtilsProvider>
+      </MuiPickersUtilsProvider> */}
     </div>
   );
 });
